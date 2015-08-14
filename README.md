@@ -1,8 +1,8 @@
 # Roadmap
-* ## 1 Setup
- * ### [x] 1.1 Guard init
- * ### [x] 1.2 Rspec install
- * ### [ ] 1.3 Basic setting
+ 1. Setup
+  [x] Guard init
+  [x] Rspec install
+  [x] Basic setting
 
 
 ## Setup
