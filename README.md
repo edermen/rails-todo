@@ -2,7 +2,7 @@
  1. **Setup;**
   * Guard init;
   * Rspec install;
-  * Basic setting (Guaedfile within LiveReload, Rspec generate);
+  * Basic setting (Guardfile within LiveReload, Rspec generate);
  2. **Layout basics;**
  3. **Introduction with Rspec;**
   * Basic test for model `List`;
