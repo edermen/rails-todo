@@ -1,0 +1,21 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  background: url(../assets/bg.png);
+  .navbar{
+    margin: 0px 10px;
+  }
+  .navbar-collapse>.col-lg-3{
+    margin-left: -20px;
+  }
+  a#root_link{
+    font: 32px/50px normal, sans-serif;
+    color: #888;
+    text-shadow:0px -2px 0px #525252, 0px 2px 2px #fff; 
+    &:hover{
+      text-decoration: none;
+      color: #77a;
+    }
+  }
+}

@@ -13,5 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+// Example using 'Cerulean' bootswatch
+
+//Import bootstrap-sprockets
 @import "bootstrap-sprockets";
+
+// Import spacelab variables
+@import "bootswatch/spacelab/variables";
+
+// Then bootstrap itself
 @import "bootstrap";
+
+// Bootstrap body padding for fixed navbar
+body { padding-top: 20px; }
+
+// And finally bootswatch style itself
+@import "bootswatch/spacelab/bootswatch";
+
+// Whatever application styles you have go last
