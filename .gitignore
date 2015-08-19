@@ -16,7 +16,6 @@
 /tmp
 database.yml
 doc/
-*.sublime*
 *.swp
 *.swo
 *~
