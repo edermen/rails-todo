@@ -10,7 +10,7 @@ describe List do
     it { should_not be_valid }
   end
   describe "long name" do
-    before { @list.name = 'a' *60}
-    it { should be_valid } 
+    before { @list.name = 'a' *61}
+    it { should_not be_valid } 
   end
 end
