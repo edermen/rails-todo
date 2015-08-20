@@ -1,5 +1,16 @@
 require 'rails_helper'
 
-RSpec.describe List, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe List do
+  before { @list = List.new( name: "First list" ) }
+  subject { @list }
+  #Valid name
+  it { should respond_to :name } 
+  describe "short name" do
+    before { @list.name = " " }
+    it { should_not be_valid }
+  end
+  describe "long name" do
+    before { @list.name = 'a' *60}
+    it { should be_valid } 
+  end
 end

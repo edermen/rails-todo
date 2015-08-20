@@ -19,6 +19,7 @@ doc/
 *.swp
 *.swo
 *~
+*sublime*
 *.copy
 *.keep
 *.pdf
