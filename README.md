@@ -5,6 +5,8 @@
   * Basic setting (Guardfile within LiveReload, Rspec generate);
  2. **Layout basics;**
  3. **Introduction with Rspec;**
+  * Generate resource `list`;
+  * Connect to PostgreSQL;
   * Basic test for model `List`;
   * Basic test for controller `Lists`;
   * Test create list form;
