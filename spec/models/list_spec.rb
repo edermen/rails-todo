@@ -4,7 +4,8 @@ describe List do
   before { @list = List.new( name: "First list" ) }
   subject { @list }
   #Valid name
-  it { should respond_to :name } 
+  it { should respond_to :name }
+
   describe "short name" do
     before { @list.name = " " }
     it { should_not be_valid }
